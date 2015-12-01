@@ -11,7 +11,8 @@ libraryDependencies ++= Seq(
   "org.scalaz" %% "scalaz-effect" % scalazVersion,
   "org.scalaz" %% "scalaz-typelevel" % scalazVersion,
   "org.scalaz" %% "scalaz-scalacheck-binding" % scalazVersion % "test" ,
-  "com.chuusai" %% "shapeless" % "2.2.5"
+  "com.chuusai" %% "shapeless" % "2.2.5",
+  "org.tpolecat" %% "doobie-core" % "0.2.3"
 )
 
 scalacOptions += "-feature"
